@@ -1,0 +1,28 @@
+<%- include('partials/header') %>
+
+
+<div class="jumbotron centered" style="display: flex; align-items: center; justify-content: center; min-height: 87vh; background: linear-gradient(to right, #667eea, #764ba2); text-align: center; color: white; padding: 2rem;">
+  <div class="container" style="max-width: 650px; margin: 0 auto; background-color: rgba(255, 255, 255, 0.1); padding: 2.5rem 2rem; border-radius: 20px; box-shadow: 0 12px 30px rgba(0,0,0,0.3);border: 1px solid rgba(255,255,255,0.2);">
+    <i class="fa fa-globe fa-3x" style="margin-bottom: 1.2rem; color: #FFD586; text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);"></i>
+    <h1 class="display-3" style="font-weight: 700;font-size: 3rem;margin-bottom: 1rem;color: #FFD586;">WorldLogIn</h1>
+    <p class="lead" style="font-size: 1.25rem; margin-bottom: 2rem;color:#222;font-weight: bold;line-height: 1.6;">The world knows where you’ve been, but no one knows who you are.</p>
+
+    <a href="/register" role="button"
+      style="padding: 0.75rem 1.5rem; font-size: 1.1rem; border-radius: 20px; margin: 0 0.5rem; background-color: #EAE4D5; color: black; text-decoration: none; display: inline-block; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); transition: all 0.3s ease;width:30%"
+      onmouseover="this.style.backgroundColor='#393E46'; this.style.color='white';"
+      onmouseout="this.style.backgroundColor='#EAE4D5'; this.style.color='black';">
+      Register
+    </a>
+
+    <a href="/login" role="button"
+      style="padding: 0.75rem 1.5rem; font-size: 1.1rem; border-radius: 20px; margin: 0 0.5rem; background-color: #4E71FF; color: #FDFAF6; text-decoration: none; display: inline-block; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); transition: all 0.3s ease;width: 30%;"
+      onmouseover="this.style.backgroundColor='#5409DA';"
+      onmouseout="this.style.backgroundColor='#4E71FF';">
+      Login
+    </a>
+  </div>
+</div>
+
+
+
+<%- include('partials/footer') %>
